@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	background-color: #999;
+
+}
+
+button {
+	margin-top: 10px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+input {
+	margin-top: 30px;
+	height: 30px;
+	font-size: 14px;
+}
+
+h2 {
+	margin-bottom: 100px;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 30px;
+	color: whitesmoke;
+}
+
+#container-principal{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 500px;
+	height: 500px;
+	background-image: url(img/fundo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+
+
+#container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 290px;
+	height: 250px;
+	border-radius: 5px;
+	background-color: aliceblue;
+	box-shadow: 5px 5px;
+}
+
+
+#caixa-texto {
+	padding: 8px;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+}
+
+#caixa-texto p {
+	padding: 5px;
+}
